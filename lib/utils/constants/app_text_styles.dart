@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pandur/utils/constants/app_colors.dart';
 
 class AppTextStyles{
   static const TextStyle kTextLoginMedium = TextStyle(
@@ -8,6 +9,35 @@ class AppTextStyles{
     fontSize: 24,
     color: Color.fromRGBO(255,255,255,1),
   );
+  static const TextStyle kTextSubTitleLogin = TextStyle(
+      fontFamily: 'Inter',
+    fontWeight: FontWeight.w800,
+    fontStyle: FontStyle.normal,
+    fontSize: 16,
+    color: Color.fromRGBO(255,255,255,1),
+  );
+
+   static const TextStyle kAnswerLogin = TextStyle(
+      fontFamily: 'Inter',
+    fontWeight: FontWeight.w800,
+    fontStyle: FontStyle.normal,
+    fontSize: 16,
+    color: AppColors.kMain,
+  );
+  static const TextStyle kTextButtonGithub = TextStyle(
+    fontFamily: 'Inter',
+    fontWeight: FontWeight.w600,
+    fontStyle: FontStyle.normal,
+    fontSize: 14,
+    color: Color.fromRGBO(255,255,255,1)
+  );
+   static const TextStyle kSecondaryTextLoginPage = TextStyle(
+    fontSize: 14,
+    fontFamily: "Roboto",
+    letterSpacing: 0.15,
+    color: Color.fromRGBO(255,255,255,1),
+  );
+
   static const TextStyle kTextTitle = TextStyle(
     fontFamily: 'Inter',
     fontWeight: FontWeight.w700,
