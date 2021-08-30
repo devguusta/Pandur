@@ -27,4 +27,12 @@ class AppTextStyles{
     fontWeight: FontWeight.w400,
     fontSize:10,
   );
+
+   static const TextStyle kPoweredBy = TextStyle(
+    fontFamily: 'Roboto',
+    fontSize: 12.0,
+    fontStyle: FontStyle.italic,
+    color: Color.fromRGBO(255, 255, 255, 0.5),
+    fontWeight: FontWeight.w300,
+  );
 }
