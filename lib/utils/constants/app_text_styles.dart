@@ -24,6 +24,13 @@ class AppTextStyles{
     fontSize: 16,
     color: AppColors.kMain,
   );
+  static const TextStyle kCreateAccount = TextStyle(
+      fontFamily: 'Inter',
+    fontWeight: FontWeight.w800,
+    fontStyle: FontStyle.normal,
+    fontSize: 12,
+    color: AppColors.kMain,
+  );
   static const TextStyle kTextButtonGithub = TextStyle(
     fontFamily: 'Inter',
     fontWeight: FontWeight.w600,

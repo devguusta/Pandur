@@ -42,6 +42,7 @@ class InputForm extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 48.0),
       child: TextFormField(
+        style: TextStyle(color: AppColors.kMain),
         initialValue: initialValue,
         enabled: enabled,
         onChanged: onChanged,

@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:pandur/modules/login/signin/login_page.dart';
-import 'package:pandur/modules/login/signup/signup_page.dart';
+import 'package:pandur/modules/home/pages/home_page.dart';
+import 'package:pandur/modules/login/pages/login/login_page.dart';
+
 import 'package:pandur/modules/splash/splash_page.dart';
+
+
+import 'modules/login/pages/signup/signup_page.dart';
 
 
 
@@ -20,7 +24,8 @@ class AppWidget extends StatelessWidget {
         // "/splash": (_) => SplashPage(),
         "/": (_) => SplashPage(),
         "/login": (_) => LoginPage(),
-        "/signup": (_) => SignUpPage()
+        "/signup": (_) => SignUpPage(),
+        "/home": (_) => HomePage(),
       },
     );
   }
